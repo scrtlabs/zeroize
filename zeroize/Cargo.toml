@@ -18,7 +18,7 @@ categories = ["cryptography", "memory-management", "no-std", "os"]
 keywords = ["memory", "memset", "secure", "volatile", "zero"]
 
 [dependencies]
-zeroize_derive = { tag = "zeroize_derive/v1.0.1", git = "https://github.com/enigmampc/zeroize", path = "derive", optional = true }
+zeroize_derive = { tag = "zeroize_derive/v1.0.1", git = "https://github.com/scrtlabs/zeroize", path = "derive", optional = true }
 
 [features]
 default = ["alloc"]
